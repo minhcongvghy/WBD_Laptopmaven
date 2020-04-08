@@ -37,6 +37,14 @@ public class Product {
         this.isUpdate = isUpdate;
     }
 
+    public Product(String name, String cpu, String ram, Double price, String description) {
+        this.name = name;
+        this.cpu = cpu;
+        this.ram = ram;
+        this.price = price;
+        this.description = description;
+    }
+
     public Long getId() {
         return id;
     }
